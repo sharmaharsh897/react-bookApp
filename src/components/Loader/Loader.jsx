@@ -4,8 +4,8 @@ import "./Loader.css";
 
 const Loader = () => {
   return (
-    <div className='loader flex felx-c'>
-        <img src='{LoaderImg}' alt= "loading"/>
+    <div className='loader flex flex-c'>
+        <img src={LoaderImg}alt= "loading"/>
     </div>
   )
 }
